@@ -120,7 +120,7 @@ for i in range(kendaraan):
             print("Status: Pelanggaran Kecepatan")
     elif statushp[i]:
         print("Status: Pelanggaran Handphone")
-    elif not statushp[i]:
+    elif not statusp[i]:
         if jenis[i]=="Motor":
             print("Status: Pelanggaran Helm")
         elif jenis[i]=="Mobil":
