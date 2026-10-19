@@ -19,7 +19,11 @@ menit=[]
 for i in range (kendaraan):
     database = input("Database Plat Nomor: ")
     data_plat.append(database)    
-    print("--------------------")
+print("--------------------")
+    
+
+
+for i in range(kendaraan):
     print("Timestamp kendaraan ke-" + str(i+1))
     tglkend = int(input("Tanggal: "))
     tanggal.append(tglkend)
@@ -31,9 +35,6 @@ for i in range (kendaraan):
     jam.append(jamkend)
     mntkend = int(input("Menit: "))
     menit.append(mntkend)
-
-
-for i in range(kendaraan):
     print("--------------------")
     platkend = input("Plat Kendaraan " + str(i+1) + ":")
     plat.append(platkend)
